@@ -14,8 +14,8 @@ zmodload zsh/complist
 compinit
 
 #atalhos
-bindkey '^[[1;5D' beginning-of-line
-bindkey '^[[1;5C' end-of-line
+bindkey '^[[1;5D' backward-word
+bindkey '^[[1;5C' forward-word
 alias dwm='cd ~/.config/dwm'
 alias st='cd ~/.config/st'
 alias blocks='cd ~/.config/dwm/dwmblocks'
@@ -32,3 +32,6 @@ alias sr='reboot'
 
 #plugins
 source .config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
+
