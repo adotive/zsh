@@ -18,6 +18,7 @@ bindkey '^[[1;5D' backward-word
 bindkey '^[[1;5C' forward-word
 alias dwm='cd ~/.config/dwm'
 alias st='cd ~/.config/st'
+alias bat='echo "$(cat /sys/class/power_supply/BAT1/capacity)%"'
 alias blocks='cd ~/.config/dwm/dwmblocks'
 alias ls='ls --color=auto'
 alias ll='ls -a -ll --color=auto'
